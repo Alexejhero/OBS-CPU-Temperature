@@ -4,20 +4,21 @@
         <TargetFramework>net9.0-windows</TargetFramework>
         <LangVersion>preview</LangVersion>
         
+        <UseWindowsForms>true</UseWindowsForms>
+        
         <AssemblyName>CPUTemp</AssemblyName>
 
         <ImplicitUsings>enable</ImplicitUsings>
 
         <Configurations>Release</Configurations>
         <Platforms>AnyCPU</Platforms>
-        
-        <OutputType>Exe</OutputType>
+
+        <OutputType>WinExe</OutputType>
         <IsPackable>false</IsPackable>
-        <PublishAot>true</PublishAot>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="9.0.1" />
+        <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="9.0.1"/>
     </ItemGroup>
 
 </Project>
