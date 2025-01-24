@@ -1,0 +1,8 @@
+﻿<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Publish" type="DotNetFolderPublish" factoryName="Publish to folder">
+    <riderPublish configuration="Release" delete_existing_files="true" platform="Any CPU" produce_single_file="true" ready_to_run="true" runtime="win-x64" self_contained="true" target_folder="$PROJECT_DIR$/bin/Release/net9.0-windows/win-x64/publish" target_framework="net9.0-windows" trim_unused_assemblies="true" uuid_high="886823017303919939" uuid_low="-6266138604973062004" />
+    <method v="2">
+      <option name="Build" default="false" projectName="Stream-CPU-Temp" projectPath="$PROJECT_DIR$/Stream-CPU-Temp.csproj" />
+    </method>
+  </configuration>
+</component>
